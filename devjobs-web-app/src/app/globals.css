@@ -1,8 +1,23 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
     --background: #ffffff;
     --foreground: #171717;
+
+    --clr-violet: rgb(89, 100, 224);
+    --clr-light-violet: rgb(147, 155, 244);
+    --clr-very-dark-blue: rgb(25, 32, 45);
+    --clr-midnight: rgb(18, 23, 33);
+
+    --clr-white: rgb(255, 255, 255);
+    --clr-light-grey: rgb(244, 246, 248);
+    --clr-gray: rgb(157, 174, 194);
+    --clr-dark-grey: rgb(110, 128, 152);
+
+    --h1-fs: 1.75rem;
+    --h2-fs: 1.5rem;
+    --h3-fs: 1.25rem;
+    --h4-fs: 0.875rem;
 }
 
 @theme inline {
